@@ -16,10 +16,11 @@
 </head>
 <body>
 
-<form action="" method="POST">
+<form action="user?page=newUsers" method="POST">
     <input type="text" name="userName" placeholder="Enter userName: "><br>
-    <input type="text" name="fullName" placeholder="Enter fullName: "><br>
     <input type="password" name="password" placeholder="Enter password: "><br>
+    <input type="text" name="location" placeholder="Enter Location: "><br>
+
     <input type="submit" value="Register">
     <a href="user?page=index">Already a member ? Back to Login: </a>
 </form>
